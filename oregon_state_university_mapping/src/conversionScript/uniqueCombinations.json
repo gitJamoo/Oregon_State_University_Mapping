@@ -1,0 +1,761 @@
+[
+  {
+    "roomName": "Building grounds",
+    "optionalTags": [
+      null
+    ]
+  },
+  {
+    "roomName": "Faculty Office",
+    "optionalTags": [
+      null
+    ]
+  },
+  {
+    "roomName": "Research/Nonclass Laboratory",
+    "optionalTags": [
+      "Wet",
+      "Service",
+      "Environment Control Room",
+      "Dry",
+      "Computer"
+    ]
+  },
+  {
+    "roomName": "Classroom",
+    "optionalTags": [
+      "Service",
+      "Unit Dedicated",
+      "Seminar Learning",
+      "General Purpose"
+    ]
+  },
+  {
+    "roomName": "Class Laboratory",
+    "optionalTags": [
+      "Wet",
+      "Service",
+      "Computer",
+      "Environment Control Room",
+      "Dry"
+    ]
+  },
+  {
+    "roomName": "Elevator Machinery",
+    "optionalTags": [
+      null
+    ]
+  },
+  {
+    "roomName": "Utility/Mechanical Space",
+    "optionalTags": [
+      null
+    ]
+  },
+  {
+    "roomName": "Unit Storage",
+    "optionalTags": [
+      null
+    ]
+  },
+  {
+    "roomName": "Custodial Supply Closet / Janitor Room",
+    "optionalTags": [
+      null
+    ]
+  },
+  {
+    "roomName": "Public Restroom Men's",
+    "optionalTags": [
+      null
+    ]
+  },
+  {
+    "roomName": "Public Restroom Women's",
+    "optionalTags": [
+      null
+    ]
+  },
+  {
+    "roomName": "Central Computer or Telecommunications",
+    "optionalTags": [
+      null
+    ]
+  },
+  {
+    "roomName": "Animal Facilities",
+    "optionalTags": [
+      null
+    ]
+  },
+  {
+    "roomName": "Staff Office",
+    "optionalTags": [
+      null
+    ]
+  },
+  {
+    "roomName": "Office Service",
+    "optionalTags": [
+      null
+    ]
+  },
+  {
+    "roomName": "Conference Room",
+    "optionalTags": [
+      null
+    ]
+  },
+  {
+    "roomName": "Break Room",
+    "optionalTags": [
+      null
+    ]
+  },
+  {
+    "roomName": "Shared Office",
+    "optionalTags": [
+      null
+    ]
+  },
+  {
+    "roomName": "Conference Room Service",
+    "optionalTags": [
+      null
+    ]
+  },
+  {
+    "roomName": "Trash Room",
+    "optionalTags": [
+      null
+    ]
+  },
+  {
+    "roomName": "Hazardous Materials Storage",
+    "optionalTags": [
+      null
+    ]
+  },
+  {
+    "roomName": "Student Office",
+    "optionalTags": [
+      null
+    ]
+  },
+  {
+    "roomName": "Administrative Office",
+    "optionalTags": [
+      null
+    ]
+  },
+  {
+    "roomName": "Lactation Room",
+    "optionalTags": [
+      null
+    ]
+  },
+  {
+    "roomName": "Shaft",
+    "optionalTags": [
+      null
+    ]
+  },
+  {
+    "roomName": "Open Laboratory",
+    "optionalTags": [
+      "Computer",
+      "Service",
+      "Wet",
+      "Dry",
+      "Environment Control Room"
+    ]
+  },
+  {
+    "roomName": "Meeting Room",
+    "optionalTags": [
+      null
+    ]
+  },
+  {
+    "roomName": "Public Shower",
+    "optionalTags": [
+      null
+    ]
+  },
+  {
+    "roomName": "Study Space",
+    "optionalTags": [
+      null
+    ]
+  },
+  {
+    "roomName": "Loading Dock",
+    "optionalTags": [
+      null
+    ]
+  },
+  {
+    "roomName": "Elevator",
+    "optionalTags": [
+      null
+    ]
+  },
+  {
+    "roomName": "Public Corridor",
+    "optionalTags": [
+      null
+    ]
+  },
+  {
+    "roomName": "Bridge/Tunnel",
+    "optionalTags": [
+      null
+    ]
+  },
+  {
+    "roomName": "Lobby",
+    "optionalTags": [
+      null
+    ]
+  },
+  {
+    "roomName": "Roof",
+    "optionalTags": [
+      null
+    ]
+  },
+  {
+    "roomName": "Stairway",
+    "optionalTags": [
+      null
+    ]
+  },
+  {
+    "roomName": "Vestibule",
+    "optionalTags": [
+      null
+    ]
+  },
+  {
+    "roomName": "Lounge",
+    "optionalTags": [
+      null
+    ]
+  },
+  {
+    "roomName": "Food Facility",
+    "optionalTags": [
+      null
+    ]
+  },
+  {
+    "roomName": "Food Facility Service",
+    "optionalTags": [
+      null
+    ]
+  },
+  {
+    "roomName": "Merchandising Service",
+    "optionalTags": [
+      null
+    ]
+  },
+  {
+    "roomName": "Public Restroom",
+    "optionalTags": [
+      null
+    ]
+  },
+  {
+    "roomName": "Central Service",
+    "optionalTags": [
+      null
+    ]
+  },
+  {
+    "roomName": "Central Service Support",
+    "optionalTags": [
+      null
+    ]
+  },
+  {
+    "roomName": "Central Storage",
+    "optionalTags": [
+      null
+    ]
+  },
+  {
+    "roomName": "Locker Room Men",
+    "optionalTags": [
+      null
+    ]
+  },
+  {
+    "roomName": "Locker Room Women",
+    "optionalTags": [
+      null
+    ]
+  },
+  {
+    "roomName": "Child Care",
+    "optionalTags": [
+      null
+    ]
+  },
+  {
+    "roomName": "Child Care Service",
+    "optionalTags": [
+      null
+    ]
+  },
+  {
+    "roomName": "Media Production",
+    "optionalTags": [
+      null
+    ]
+  },
+  {
+    "roomName": "Media Production Service",
+    "optionalTags": [
+      null
+    ]
+  },
+  {
+    "roomName": "Inactive Area",
+    "optionalTags": [
+      null
+    ]
+  },
+  {
+    "roomName": "Alteration or Conversion Area",
+    "optionalTags": [
+      null
+    ]
+  },
+  {
+    "roomName": "Apartment",
+    "optionalTags": [
+      null
+    ]
+  },
+  {
+    "roomName": "Greenhouse",
+    "optionalTags": [
+      null
+    ]
+  },
+  {
+    "roomName": "Greenhouse Service",
+    "optionalTags": [
+      null
+    ]
+  },
+  {
+    "roomName": "Field Building",
+    "optionalTags": [
+      null
+    ]
+  },
+  {
+    "roomName": "House",
+    "optionalTags": [
+      null
+    ]
+  },
+  {
+    "roomName": "OSU Lot",
+    "optionalTags": [
+      null
+    ]
+  },
+  {
+    "roomName": "INACTIVE",
+    "optionalTags": [
+      null
+    ]
+  },
+  {
+    "roomName": "Sleep/Study Service",
+    "optionalTags": [
+      null
+    ]
+  },
+  {
+    "roomName": "Sleep/Study With Toilet or Bath",
+    "optionalTags": [
+      null
+    ]
+  },
+  {
+    "roomName": "Recreation",
+    "optionalTags": [
+      null
+    ]
+  },
+  {
+    "roomName": "Toilet or Bath",
+    "optionalTags": [
+      null
+    ]
+  },
+  {
+    "roomName": "Shop",
+    "optionalTags": [
+      null
+    ]
+  },
+  {
+    "roomName": "Central Computer or Telecommunications Service",
+    "optionalTags": [
+      null
+    ]
+  },
+  {
+    "roomName": "Central Storage Service",
+    "optionalTags": [
+      null
+    ]
+  },
+  {
+    "roomName": "Timed",
+    "optionalTags": [
+      null
+    ]
+  },
+  {
+    "roomName": "Sleep/Study Without Toilet or Bath",
+    "optionalTags": [
+      null
+    ]
+  },
+  {
+    "roomName": "Individual Study Laboratory",
+    "optionalTags": [
+      null
+    ]
+  },
+  {
+    "roomName": "Merchandising",
+    "optionalTags": [
+      null
+    ]
+  },
+  {
+    "roomName": "Open-Stack Study Room",
+    "optionalTags": [
+      null
+    ]
+  },
+  {
+    "roomName": "Student Practice Room",
+    "optionalTags": [
+      null
+    ]
+  },
+  {
+    "roomName": "Vehicle Storage",
+    "optionalTags": [
+      null
+    ]
+  },
+  {
+    "roomName": "Athletic or Physical Education Service",
+    "optionalTags": [
+      null
+    ]
+  },
+  {
+    "roomName": "Athletic or Physical Education",
+    "optionalTags": [
+      null
+    ]
+  },
+  {
+    "roomName": "Exhibition Service",
+    "optionalTags": [
+      null
+    ]
+  },
+  {
+    "roomName": "Apartment Service",
+    "optionalTags": [
+      null
+    ]
+  },
+  {
+    "roomName": "Shop Service",
+    "optionalTags": [
+      null
+    ]
+  },
+  {
+    "roomName": "Assembly Service",
+    "optionalTags": [
+      null
+    ]
+  },
+  {
+    "roomName": "Assembly",
+    "optionalTags": [
+      null
+    ]
+  },
+  {
+    "roomName": "Demonstration",
+    "optionalTags": [
+      null
+    ]
+  },
+  {
+    "roomName": "Armory (Military Support)",
+    "optionalTags": [
+      null
+    ]
+  },
+  {
+    "roomName": "Unfinished Area",
+    "optionalTags": [
+      null
+    ]
+  },
+  {
+    "roomName": "Stack",
+    "optionalTags": [
+      null
+    ]
+  },
+  {
+    "roomName": "Animal Facilities Service",
+    "optionalTags": [
+      null
+    ]
+  },
+  {
+    "roomName": "Non-Public Lot",
+    "optionalTags": [
+      null
+    ]
+  },
+  {
+    "roomName": "Government",
+    "optionalTags": [
+      null
+    ]
+  },
+  {
+    "roomName": "Walkways",
+    "optionalTags": [
+      null
+    ]
+  },
+  {
+    "roomName": "Roadways",
+    "optionalTags": [
+      null
+    ]
+  },
+  {
+    "roomName": "Utility Tunnels",
+    "optionalTags": [
+      null
+    ]
+  },
+  {
+    "roomName": "Other Utility",
+    "optionalTags": [
+      null
+    ]
+  },
+  {
+    "roomName": "Treatment/Examination Clinic",
+    "optionalTags": [
+      null
+    ]
+  },
+  {
+    "roomName": "Treatment/Examination Clinic Service",
+    "optionalTags": [
+      null
+    ]
+  },
+  {
+    "roomName": "Locker Room",
+    "optionalTags": [
+      null
+    ]
+  },
+  {
+    "roomName": "Fuel Room",
+    "optionalTags": [
+      null
+    ]
+  },
+  {
+    "roomName": "Hazardous Waste Storage",
+    "optionalTags": [
+      null
+    ]
+  },
+  {
+    "roomName": "Lounge Service",
+    "optionalTags": [
+      null
+    ]
+  },
+  {
+    "roomName": "Non-OSU Lot",
+    "optionalTags": [
+      null
+    ]
+  },
+  {
+    "roomName": "Study Service",
+    "optionalTags": [
+      null
+    ]
+  },
+  {
+    "roomName": "Exhibition",
+    "optionalTags": [
+      null
+    ]
+  },
+  {
+    "roomName": "Meeting Room Service",
+    "optionalTags": [
+      null
+    ]
+  },
+  {
+    "roomName": "Athletic Facilities Spectator Seating",
+    "optionalTags": [
+      null
+    ]
+  },
+  {
+    "roomName": "Central Utility Plant",
+    "optionalTags": [
+      null
+    ]
+  },
+  {
+    "roomName": "Hoteling Space",
+    "optionalTags": [
+      null
+    ]
+  },
+  {
+    "roomName": "Ramp",
+    "optionalTags": [
+      null
+    ]
+  },
+  {
+    "roomName": "Surgery",
+    "optionalTags": [
+      null
+    ]
+  },
+  {
+    "roomName": "Vehicle Storage Service",
+    "optionalTags": [
+      null
+    ]
+  },
+  {
+    "roomName": "Recreation Service",
+    "optionalTags": [
+      null
+    ]
+  },
+  {
+    "roomName": "Surgery Service",
+    "optionalTags": [
+      null
+    ]
+  },
+  {
+    "roomName": "Nurse Station",
+    "optionalTags": [
+      null
+    ]
+  },
+  {
+    "roomName": "Nurse Station Service",
+    "optionalTags": [
+      null
+    ]
+  },
+  {
+    "roomName": "Diagnostic Service Laboratory",
+    "optionalTags": [
+      null
+    ]
+  },
+  {
+    "roomName": "Diagnostic Service Laboratory Support",
+    "optionalTags": [
+      null
+    ]
+  },
+  {
+    "roomName": "Central Supplies",
+    "optionalTags": [
+      null
+    ]
+  },
+  {
+    "roomName": "Staff On-Call Facility",
+    "optionalTags": [
+      null
+    ]
+  },
+  {
+    "roomName": "Patient Bedroom",
+    "optionalTags": [
+      null
+    ]
+  },
+  {
+    "roomName": "Public Waiting",
+    "optionalTags": [
+      null
+    ]
+  },
+  {
+    "roomName": "Patient Bedroom Service",
+    "optionalTags": [
+      null
+    ]
+  },
+  {
+    "roomName": "Armory Service",
+    "optionalTags": [
+      null
+    ]
+  },
+  {
+    "roomName": "Processing Room",
+    "optionalTags": [
+      null
+    ]
+  },
+  {
+    "roomName": "Clinic",
+    "optionalTags": [
+      null
+    ]
+  },
+  {
+    "roomName": "Other (All Purpose)",
+    "optionalTags": [
+      null
+    ]
+  },
+  {
+    "roomName": "Sanitary sewer",
+    "optionalTags": [
+      null
+    ]
+  }
+]
