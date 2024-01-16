@@ -48,11 +48,13 @@ const RoomSelector = () => {
           if (
             display &&
             display.roomName === roomName &&
-            display.optionalTag === optionalTag
+            (optionalTag === null ||
+              display.optionalTag === optionalTag ||
+              !display.optionalTag)
           ) {
             const buildingID = building.building_id;
             results[buildingID] = results[buildingID] || [];
-            results[buildingID].push(room.display.roomNumber); // Ensure roomNumber is the correct property
+            results[buildingID].push(display.roomNumber);
           }
         }
       }
