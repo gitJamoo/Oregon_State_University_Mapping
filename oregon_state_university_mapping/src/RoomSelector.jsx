@@ -5,6 +5,7 @@ const RoomSelector = () => {
   const [selectedRoom, setSelectedRoom] = useState(null);
   const [selectedOptionalTag, setSelectedOptionalTag] = useState(null);
   const [results, setResults] = useState(null);
+  const [visibleBuilding, setVisibleBuilding] = useState(null);
 
   useEffect(() => {
     const fetchData = async () => {
@@ -22,6 +23,21 @@ const RoomSelector = () => {
     fetchData();
   }, []);
 
+  useEffect(() => {
+    // Use this effect to update results when selectedRoom or selectedOptionalTag changes
+    const updateResults = async () => {
+      if (selectedRoom) {
+        const newResults = await findMatchingBuildingIDs(
+          selectedRoom.roomName,
+          selectedOptionalTag
+        );
+        setResults(newResults);
+      }
+    };
+
+    updateResults();
+  }, [selectedRoom, selectedOptionalTag]);
+
   const handleRoomChange = (roomName) => {
     const selectedRoomData = roomData.find(
       (room) => room.roomName === roomName
@@ -32,7 +48,6 @@ const RoomSelector = () => {
 
   const findMatchingBuildingIDs = async (roomName, optionalTag) => {
     if (!selectedRoom || selectedRoom.roomName !== roomName) {
-      // Check if selectedRoom is set and matches the current roomName
       return {};
     }
 
@@ -68,7 +83,10 @@ const RoomSelector = () => {
 
   const handleOptionalTagChange = (optionalTag) => {
     setSelectedOptionalTag(optionalTag);
-    setResults(findMatchingBuildingIDs(selectedRoom.roomName, optionalTag));
+  };
+
+  const handleShowRoomNumbers = (buildingID) => {
+    setVisibleBuilding(buildingID);
   };
 
   return (
@@ -99,16 +117,29 @@ const RoomSelector = () => {
           </div>
         )}
 
-      {selectedRoom && selectedOptionalTag && (
+      {/* Display Results */}
+      {results && (
         <div>
-          <p>Selected Room: {selectedRoom.roomName}</p>
-          <p>Selected Optional Tag: {selectedOptionalTag}</p>
-        </div>
-      )}
-
-      {results && results.length > 0 && (
-        <div>
-          <p>Matching Building IDs: {results.join(", ")}</p>
+          <h2>Results:</h2>
+          {Object.entries(results).map(([buildingID, roomNumbers]) => (
+            <div key={buildingID}>
+              <h3>Building ID: {buildingID}</h3>
+              {roomNumbers.length > 0 && (
+                <div>
+                  <button onClick={() => handleShowRoomNumbers(buildingID)}>
+                    {visibleBuilding === buildingID
+                      ? "Hide Room Numbers"
+                      : "Show Room Numbers"}
+                  </button>
+                  {visibleBuilding === buildingID && (
+                    <div>
+                      <p>All Room Numbers: {roomNumbers.join(", ")}</p>
+                    </div>
+                  )}
+                </div>
+              )}
+            </div>
+          ))}
         </div>
       )}
     </div>
